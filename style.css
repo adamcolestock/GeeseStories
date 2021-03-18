@@ -1,4 +1,59 @@
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+#titles2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#statesmanLogo {
+    width: 250px;
+    height: 30px;
+}
+
+#tribuneLogo {
+    width: 250px;
+    height: 30px;
+}
+
+#titles1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#main-subtitle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style: italic; */
+    margin-bottom: 60px;
+}
 
 #main-title {
     text-align: center;
+    left: 100%;
+    font-size: 100px;
+    margin-bottom: 0;
 }
+
+.goosePic {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#goosePictures {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+

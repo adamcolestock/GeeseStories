@@ -73,6 +73,7 @@ d3.json("data/geesedata-chicago.json").then(function (data) {
         .selectAll('circle').data(datesChicago)
         .enter().append('circle')
             .attr('fill', "black")
+            .style('opacity', '0.5')
             .attr('cy', function(d){
                 return yScale(d);
             })
@@ -143,6 +144,7 @@ d3.json("data/geesedata-austin.json").then(function (data) {
         .selectAll('circle').data(datesAustin)
         .enter().append('circle')
             .attr('fill', "black")
+            .style('opacity', '0.5')
             .attr('cy', function(d){
                 return yScale(d);
             })
@@ -171,8 +173,7 @@ d3.json("data/geesedata-austin.json").then(function (data) {
                 tooltipAustin.style('visibility', 'hidden')
                 d3.select(this)
                     .style('fill', tempColor)
-                });
-
+                })
 });
 
 
